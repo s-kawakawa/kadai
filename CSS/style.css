@@ -1,124 +1,66 @@
-
-body {
-background-image: image(mainbg.png);
-
-    color: black;
-    background-color: bisque;
-    text-align: center;
-
-}
-
-/*  */
-
-/* ヘッダー */
-
-.header {
-    display: flex;
-    flex-direction: row;
-    height: 50px;
-    justify-content: flex-start;
-    width: 985px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 15px;
-
-}
-
-
-
-.header-list {
-    display: flex;
-    justify-content: flex-end;
-    width: 600px;
-    justify-content: space-around;
-}
-
-.header-logo {
-    margin-right: 200px;
-    margin-left: 30px;
-}
-
-/* mainbg */
-
-.mainbg_01{
-
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    text-align: center;
-    width: 120%;
-}
-
-.mainbg_02{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    text-align: center;
-    width: 80%;
-}
-
-/*  */
-
-.relative{
-    position: relative;
-    width: 1400px;
-}
-
-.abusolute{
-    position: absolute;
-    bottom: 800px;
-}
-
-
-/* 
-
-
-.header{
-background-image: url("../imges/header_logo.png");
-
-background-repeat: no-repeat;
-width: 430px;
-height: 90px;
-background-size: cover;
+/* #state{
+ width: 250px;
+  height: 250px;
+  object-fit: cover;
 }
  */
 
-.contact-btm{
-
-    background-color:gold;
-}
-
-/* cource */
-
-.about_02{
-display: flex;
-align-items: center;
-justify-content: center;
-
-}
-
-.about_02title{
+button{
     
-    font-size: 25px;
-  padding-top: 20px;
-  padding-left: 30px;
+    border-radius:50px;
 }
 
-.about_02info{
-    padding-left: 30px;
+html{
+    background-color:antiquewhite;
+    
 }
 
-
-.course_02title{
-    display: ;
-    align-items: ; 
-    justify-content: flex-end;
+#win{
+    width: 800;
+    justify-self: end;
+    height: fit-content;
+    font-size: large;
+    
 }
 
-.course_03.jpg{
-    text-align: right
+#lose{
+    width: 800;
+    justify-self: end;
+    height: fit-content;
+    font-size: large;
+    
 }
+
+#title {
+        display: flex;
+        overflow: hidden;
+        color: #aa8f7b;
+        font-family: 'fantasy', sans-serif;
+      }
+      
+      
+      #title-visible span {
+        transform: translate(0, 0);
+      }
+
+      #title span:nth-child(2) {
+        transition-delay: 0.11s;
+      }
+      #title span:nth-child(3) {
+        transition-delay: 0.12s;
+      }
+      #title span:nth-child(4) {
+        transition-delay: 0.18s;
+      }
+      #title span:nth-child(5) {
+        transition-delay: 0.24s;
+      }
+      #title span:nth-child(6) {
+        transition-delay: 0.30s;
+      }
+      #title span:nth-child(7) {
+        transition-delay: 0.36s;
+      }
+      #title span:nth-child(8) {
+        transition-delay: 0.42s;
+      }
